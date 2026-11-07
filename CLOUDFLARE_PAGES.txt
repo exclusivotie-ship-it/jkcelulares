@@ -1,0 +1,32 @@
+JK — PUBLICAÇÃO NO CLOUDFLARE PAGES
+
+Este pacote contém o PROJETO-FONTE completo. O Cloudflare Pages deve compilar o projeto.
+
+Configuração do projeto:
+  Framework preset: Vite
+  Build command: npm run build
+  Build output directory: dist
+  Root directory: / (raiz do repositório)
+  Node.js: 22.x
+
+Passos:
+1. Extraia o ZIP e envie o conteúdo da pasta JK-LOJA-TECNOLOGIA-ANGOLA para um repositório Git (GitHub/GitLab).
+2. No Cloudflare Pages, crie um projeto ligado a esse repositório.
+3. Defina as configurações acima e inicie o deploy.
+4. Configure as variáveis necessárias em Settings > Variables and Secrets.
+
+Variáveis (consulte também .env.example):
+  GEMINI_API_KEY — chave para a GladIA (se o modo Gemini estiver ativo).
+  VITE_SUPABASE_URL — URL do projeto Supabase, se utilizar backend Supabase.
+  VITE_SUPABASE_ANON_KEY — chave pública/anon do Supabase.
+  VITE_JK_WHATSAPP_NUMBER — 244922201011.
+  VITE_JK_WHATSAPP_LINK — https://wa.me/244922201011.
+
+IMPORTANTE:
+- Não publique segredos privados no código nem no repositório.
+- A pasta dist é gerada automaticamente por `npm run build`; não faz parte deste ZIP-fonte.
+- O ficheiro public/_redirects mantém o fallback SPA para rotas da aplicação.
+- O ficheiro public/JK-Plataforma-Tecnologia-Angola.zip foi mantido como recurso público
+  da funcionalidade de exportação/download da própria loja.
+- O build não foi executado neste ambiente porque a instalação das dependências npm
+  excedeu o limite de tempo disponível. Faça o primeiro build no Cloudflare ou localmente.

@@ -1,0 +1,6 @@
+{
+  "name": "JK — Loja de Tecnologia & E-Commerce Angola",
+  "description": "Plataforma de comércio eletrónico completa JK em Angola. Smartphones, portáteis, acessórios com WhatsApp Commerce oficial, área de afiliados, CRM, gestão de encomendas e GladIA assistente inteligente.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
